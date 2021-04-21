@@ -9,7 +9,7 @@
         width:100%;
         background-color: rgb(255, 255, 255);
         border-radius: 7px;
-        display: flex;
+       
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
         
       }
@@ -24,7 +24,24 @@
         padding:10px;
       
       }
-      
+      legend{
+        font-size: 20px;
+        font-family: sans-serif;
+        padding:5px 10px;
+        border-top:groove violet;
+        background-color: white;
+
+      }
+      h4{
+        font-weight: normal;
+      }
+      fieldset{
+        border:0px;
+      }
+      td{
+        padding:3px ;
+        
+      }
       img {
           width:100%;
           height:100%;
@@ -32,13 +49,13 @@
         }
         .name{
           
-          font-size:40px;
+          font-size:20px;
           font-family:sans-serif;
           text-transform: uppercase;
         }
         .description{
           color:grey;
-          font-size:20px;
+          font-size:18px;
           font-family:sans-serif;
         }
         body{
@@ -56,18 +73,22 @@
     </div>
     <br>
   <div style="margin: 8px;">
-  <div class="card">
+  <div class="card" style="display: flex;">
       
-    <img class="prof_img" src="https://cdn.shopify.com/s/files/1/0549/8421/2633/files/cityflowers-grd-2_1800x.jpg?v=1615795687" alt="not Found">
+    <img class="prof_img" src="https://avatars.githubusercontent.com/u/67894584?v=4" alt="not Found">
     <div style="padding:10px;">
-      <span class="name">Name Will Appear Here</span> <br><br>
-      <span class="description">description line </span><br>
+      <span class="name">Karthikeyan T</span> <br><br>
+      <span class="description">Engineer </span><br>
      </div>
   </div>
   <br>
+
    <div style="display: flex;justify-content: space-between;">
-     <div style="width:60%;padding:10px;" class= "card">
-      <span style="font-family:sans-serif;font-size: 20px;">PERSONAL INFORMATION</span>     
+     
+     <fieldset style="width:60%;padding:10px;background-color: white;" class="card" >
+      <legend>Details</legend>
+      <div style="display:flex">
+      <span style="font-family:sans-serif;font-size: 15px;padding-right: 30px;">PERSONAL INFORMATION</span>     
       <table class="description">
              <tr>
                <td>Surname:</td>
@@ -83,17 +104,48 @@
             </tr>
             <tr>
               <td>DOB:</td>
-              <td>01-jan-2001</td>
+              <td>01-Jan-2001</td>
             </tr>
             <tr>
               <td>Gender:</td>
               <td>Male</td>
             </tr>
-           </table>
-     </div>
+           </table></div>
+           <br>
+           <div style="display: flex;">
+           <span style="font-family:sans-serif;font-size: 15px;padding-right: 40px;">CONTACT INFORMATION</span>     
+      <table class="description">
+             <tr>
+               <td>Mobile No:</td>
+
+               <td>9876543210</td>
+             </tr>
+             <tr>
+              <td>Email:</td>
+              <td><a href="mailto:karthikeyantk001@gmail.com">karthikeyantk001@gmail.com</a></td>
+            </tr><tr>
+              <td>Github:</td>
+              <td><a href="github.com/karthikeyantk001">github.com/karthikeyantk001</a></td>
+            </tr>
+            <tr>
+              <td>Linkedin:</td>
+              <td><a href="www.linkedin.com/in/karthikeyantk001">www.linkedin.com/in/karthikeyantk001</a></td>
+            </tr>
+            
+           </table></div>
+     </fieldset>
      
-     <div style="width:30%; float: right;" class= "card">
-      hi
+     
+     <div style="width:30%; float: right;margin-top: 20px;" class= "card">
+      <div style="display:flex">
+        <span style="font-family:sans-serif;font-size: 15px;padding: 30px;">SKILLS</span>
+          <ul class="description">
+            <h4>Pyhton</h4>
+            <h4>Java</h4>
+            <h4>HTML</h4>
+            <h4>Bootstrap</h4>
+            <h4>Android</h4>
+          </ul>
 </div>
 </div>
 
