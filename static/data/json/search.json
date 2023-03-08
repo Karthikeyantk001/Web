@@ -2,5 +2,6 @@
   "CoroBoom":{"id":1,"url":"/p/coroboom.html"},
   "AnyBase":{"id":2,"url":"/p/anybase.html"},
   "movies": {"id":2,"url":"https://keyantheaters.blogspot.com/home"},
-  "MaYA":{"id":2,"url":"/maya"}
+  "MaYA":{"id":2,"url":"/maya"},
+  "JsTerminal",{"id":2, "url":"/jsterminal"}
 }
